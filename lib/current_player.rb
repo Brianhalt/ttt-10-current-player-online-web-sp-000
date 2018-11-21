@@ -5,7 +5,8 @@ def turn_count(board)
     if value == "X" || value == "0"
       oddeven += 1
     end
-    return oddeven
+  end
+  return oddeven
 end
 
 
