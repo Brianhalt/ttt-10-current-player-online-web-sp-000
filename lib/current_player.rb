@@ -3,7 +3,7 @@ def turn_count(board)
   oddeven = 0
   board.each do |value|
     if value == "X" || value == "0"
-      oddeven +=1
+      oddeven += 1
     end
     return oddeven
 end
