@@ -9,7 +9,6 @@ def turn_count(board)
   return oddeven
 end
 
-
 #current_player
 def current_player(board)
   oddeven = turn_count(board)
